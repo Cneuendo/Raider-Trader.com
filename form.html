@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <!--
+    GET method is 100% insecure
+    Post method does not show variable in the URL bar
+    -->
+
+    <form method="GET" action="">
+       
+        <div>
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname">
+
+        </div>
+        <div>
+            <label for="checkbox_field">CheckBox</label>
+            <input type="checkbox">
+
+        </div>
+        <div>
+            <label> Radio Buttons</label>
+            <input type="radio" name="radio_text" value="1">
+            <input type="radio" name="radio_text" value="2">
+            <input type="radio" name="radio_text" value="3">
+        </div>
+        <div>
+            <label for="">Date</label>
+            <input type="Date" name="date">
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="email">
+        </div>
+        <div>
+            Hidden
+            <input type="hidden" name="hidden" value="is_hidden">
+
+        </div>
+        <div>
+            Number
+            <input type="number" name="number" step=".5" max="50" min="0">
+
+        </div>
+        <div>
+            Password:
+            <input type="password" name="password" placeholder="ghost text">
+        </div>
+        <div>
+            URL
+            <input type="url" name="url" value="https://raider-trader.com">
+        </div>
+        <div>
+            File
+            <input type="file" name="file" >
+
+        </div>
+        <div>
+            <input type="submit" value="Submit"><br />
+        </div>
+        <hr>
+
+        <input type="text" name="firstname"><br />
+        <input type="text" name="lastname"><br />
+        <input type="password" name="password"><br />
+        <input type="submit" value="Submit"><br />
+        <hr>
+
+    </form>
+   
+</body>
+</html>
